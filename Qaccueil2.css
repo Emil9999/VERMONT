@@ -1,0 +1,122 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+
+/* Create a sticky/fixed navbar */
+#navbar {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 90px 10px; /* Large padding which will shrink on scroll (using JS) */
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+    position: fixed; /* Sticky/fixed navbar */
+    width: 100%;
+    top: 0; /* At the top */
+}
+
+/* Style the header */
+.header {
+    padding: 16px 16px;
+    background: rgba(117, 0, 0, 0.9);
+
+    color: #f1f1f1;
+    text-align: center;
+}
+
+/* Page content */
+.content {
+    padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+    padding-top: 102px;
+}
+
+.main {
+    z-index: -1;
+    position: absolute;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    background-color: #eeeeee
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 50%;
+    align-content: center;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+/* Make the image to responsive */
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+    align-content: center;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.8); /* Black see-through */
+    color: #f1f1f1;
+    width: 97.5%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.tst {
+    padding-left: 280px;
+}

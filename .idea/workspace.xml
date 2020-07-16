@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c99a1c5d-7e2f-4aa5-96bf-12585c8f8799" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1bfNR20Mm85YZ3Utyu4WVvABpKb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\PhpstormProjects\ProG\connexionBD" />
+      <recent name="C:\Users\Dell\PhpstormProjects\ProG\auth" />
+      <recent name="C:\Users\Dell\PhpstormProjects\ProG\Commun" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c99a1c5d-7e2f-4aa5-96bf-12585c8f8799" name="Default Changelist" comment="" />
+      <created>1589019175457</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589019175457</updated>
+      <workItem from="1589019176853" duration="1164000" />
+      <workItem from="1589061442734" duration="7123000" />
+      <workItem from="1589105173451" duration="3117000" />
+      <workItem from="1589117230402" duration="3662000" />
+      <workItem from="1589668939604" duration="607000" />
+      <workItem from="1589745247971" duration="13259000" />
+      <workItem from="1589795541886" duration="7916000" />
+      <workItem from="1589804678334" duration="997000" />
+      <workItem from="1589818676373" duration="12719000" />
+      <workItem from="1589979522179" duration="1907000" />
+      <workItem from="1590004846850" duration="3404000" />
+      <workItem from="1591099129022" duration="21260000" />
+      <workItem from="1591180951495" duration="11467000" />
+      <workItem from="1591273654858" duration="16574000" />
+      <workItem from="1591351667362" duration="15469000" />
+      <workItem from="1591743382277" duration="6001000" />
+      <workItem from="1592649211033" duration="10717000" />
+      <workItem from="1592820575396" duration="9565000" />
+      <workItem from="1592869108601" duration="1497000" />
+      <workItem from="1592935518132" duration="10835000" />
+      <workItem from="1592986261710" duration="3805000" />
+      <workItem from="1593117658225" duration="238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="91" key="#SQL_Dialects" timestamp="1591563385750">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="91" key="#SQL_Dialects/0.0.1536.864@0.0.1536.864" timestamp="1591563385750" />
+    <state x="511" y="235" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589795826745">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="511" y="235" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1589795826745" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592786064803">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1592786064803" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1589061508740">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589061508740" />
+    <state x="604" y="356" key="NewPhpFileDialog" timestamp="1592820713422">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="604" y="356" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1592820713422" />
+    <state x="277" y="75" key="SettingsEditor" timestamp="1593074131698">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1593074131698" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1593117700611">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1593117700611" />
+    <state x="431" y="181" width="672" height="160" key="search.everywhere.popup" timestamp="1592651529234">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="160" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1592651529234" />
+  </component>
+</project>

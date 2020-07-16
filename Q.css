@@ -1,0 +1,184 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #161616; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.container {
+    position: relative;
+    max-width: 800px; /* Maximum width */
+    margin: 0 auto; /* Center it */
+}
+
+.container .content {
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 97%; /* Full width */
+    text-align: center;
+    /* Some padding */
+
+}
+
+li {
+    list-style: none;
+    padding-left: 50px;
+}
+
+h3 {
+    text-align: center;
+    padding-right: 200px;
+    color: #141414
+
+}
+
+
+label {
+    text-align: center;
+}
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidebar */
+    padding: 20px 20px;
+    padding-left: 200px;
+    padding-right: 160px;
+    background-color: #eeeeee;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #9e0006;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.pill {
+    background-color: rgba(100, 0, 0, 5);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 20px;
+    cursor: pointer;
+    border-radius: 16px;
+    padding: 10px 20px 10px;
+}
+
+.callout {
+    position: relative;
+    bottom: 35px;
+    right: 20px;
+    margin-left: 250px;
+    margin-right: 150px;
+    margin-top: 50px;
+
+}
+
+/* Callout header */
+.callout-header {
+    padding: 25px 15px;
+    background: #b20003;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+/* Callout container/body */
+.callout-container {
+    padding: 15px;
+    background-color: #dadada;
+    color: black;
+    text-align: center;
+}
+
+/* Close button */
+.closebtn {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Change color on mouse-over */
+.closebtn:hover {
+    color: lightgrey;
+}
+
+.content {
+    width: 2000px;
+}
+
